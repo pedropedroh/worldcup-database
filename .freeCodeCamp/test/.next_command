@@ -331,3 +331,12 @@ __vsc_prompt_cmd_original
 pg_dump -U freecodecamp -d worldcup -F p -f worldcup.sql
 git remote add origin https://github.com/pedropedroh/worldcup-database.git
 git add .
+git commit -m 'finished project'
+git push
+git remote -v
+git remote set-url origin https://github.com/pedropedroh/worldcup-database.git
+git push origin main
+clear
+./queries.sh
+./queries.sh
+git add .
